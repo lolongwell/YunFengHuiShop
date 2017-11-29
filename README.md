@@ -1,6 +1,6 @@
 # shop
 vue全家桶+nodejs+mongodb商城
-#功能描述：
+# 功能描述：
   注册（自定义组件，插槽，父子组件之间通信[data,components, methods, axios]) 欠缺表单验证，用户名是否可用验证，错误提示
   登录（ajax验证用户名密码是否正确，cookie）
   退出(cookie)
@@ -14,7 +14,7 @@ vue全家桶+nodejs+mongodb商城
   订单成功页面
   订单列表展示（取消订单功能）
 
-#技术点：
+# 技术点：
   Vue的声明式渲染，组件，Vue-Router, Vuex, Axios, Vue-Cli(node, Webpack, express), VueLazyload, VueInfiniteScroll, ESLint, SVG
   Vue:
   devTools
@@ -29,9 +29,9 @@ vue全家桶+nodejs+mongodb商城
   filter过滤器：全局过滤器
   自定义指令：v-focus
 
-#常用指令，事件绑定
+# 常用指令，事件绑定
 
-#项目启动：
+# 项目启动：
   mongod
   cd api
   npm run dev
