@@ -18,6 +18,7 @@ import VueInfiniteScroll from 'vue-infinite-scroll'
 import { currency } from './util/currency'
 // 引入App组件
 import App from './App'
+import ApiConfig from '../config/api.config'
 
 // 引入基础的CSS样式
 import './assets/css/base.css'
@@ -27,6 +28,7 @@ import './assets/css/checkout.css'
 import './assets/css/product.css'
 // 使用Axios库，实际上就是给vue的实例原型上面添加一个$http和axios属性
 Vue.use(VueAxios, axios)
+axios.defaults.baseURL = ApiConfig.baseUrl
 // 使用无限滚动插件
 Vue.use(VueInfiniteScroll)
 // 使用懒加载插件，配置加载时的图片

@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 //连接MongoDB数据库,本地默认端口27017，数据库叫dumall
-mongoose.connect('mongodb://127.0.0.1:27017/x-shop');
+mongoose.connect('mongodb://127.0.0.1:27017/shop');
 
 mongoose.connection.on("connected", function () {//连接成功事件
   console.log("MongoDB connected success.")
